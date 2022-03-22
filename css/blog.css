@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+  
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+.card1 {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.icons{
+  display: flex;
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn,
+  .rightcolumn {
+  }
+  .card1{
+    display: none;
+  }
+}
+.container {
+/* max-width: 140px; */
+
+border-radius: 8px;
+padding: 20px;
+}
+
+textarea {
+width: 100%;
+border: none;
+background: #E8E8E8;
+padding: 5px 10px;
+height: 50%;
+border-radius: 5px 5px 0px 0px;
+border-bottom: 2px solid #016BA8;
+transition: all 0.5s;
+display: none;
+}

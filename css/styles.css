@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Shizuru&family=Ubuntu:wght@300&family=ZCOOL+QingKe+HuangYou&display=swap');
+
+.parent{
+    width: 300px;
+    height: 400px;
+    background-color: #6222CC;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
+.ch{
+    direction: rtl;
+    font-family: 'Bebas Neue', cursive;
+    font-size: x-large;
+    display: flex;
+    width: 280px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 0 12px 12px 0;
+}
+
+.ch1{
+    color: #fba504;
+    background-color: #fff;
+}
+
+.parent-de-parent{
+    display: flex;
+
+}
+
+.hh{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}

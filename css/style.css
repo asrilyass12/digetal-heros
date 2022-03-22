@@ -6,7 +6,13 @@
     --dark: #04000B;
 }
 
-
+body {
+  background-image: url("../img/map.png") !important;
+  background-color: #6222CC;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
 /*** Spinner ***/
 #spinner {
     opacity: 0;
@@ -24,8 +30,8 @@
 .back-to-top {
     position: fixed;
     display: none;
-    right: 45px;
-    bottom: 45px;
+    right: 15px;
+    bottom: 40px;
     z-index: 99;
 }
 
@@ -101,7 +107,7 @@ h6,
 .navbar-light .navbar-nav .nav-link {
     position: relative;
     margin-right: 25px;
-    padding: 35px 0;
+    padding: 10px;
     font-family: 'Jost', sans-serif;
     font-size: 18px;
     font-weight: 500;
@@ -511,15 +517,13 @@ h6,
 
 /*** Footer ***/
 .footer {
-    margin-top: 6rem;
-    padding-top: 9rem;
-    background:
+      background:
         /* url(../img/bg-top.png), */
         url(../img/map.png);
-    background-position:
+      background-position:
         center top,
         center center;
-    background-repeat: no-repeat;
+      background-repeat: no-repeat;
 }
 
 .footer .btn.btn-social {
@@ -601,6 +605,7 @@ h6,
   #hero:before {
     content: "";
     background: rgba(98,34,204, 0.91);
+    background-image: url(../img/map.png);
     position: absolute;
     bottom: 0;
     top: 0;
